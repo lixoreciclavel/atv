@@ -1,0 +1,166 @@
+:root{
+    /* ### Primary */
+
+--soft-red: hsl(10, 79%, 65%);
+--cyan: hsl(186, 34%, 60%);
+
+
+/* ### Neutral */
+
+--dark-brown: hsl(25, 47%, 15%);
+--medium-brown: hsl(28, 10%, 53%);
+--cream: hsl(27, 66%, 92%);
+--very-pale-orange: hsl(33, 100%, 98%);
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'DM Sans', sans-serif;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: hsl(27, 66%, 92%);
+}
+
+main header{
+    background-color: hsl(10, 79%, 65%);
+    width: 500px;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 100px;
+}
+
+main header .dados{
+    margin-left: 10px;
+    color: hsl(33, 100%, 98%);
+}
+
+main header img{
+    width: 70px;
+    margin-right: 10px;
+}
+
+main section{
+    background-color: hsl(33, 100%, 98%);
+    border-radius: 20px;
+    margin-top: 40px;
+    padding: 15px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-between; */
+    height: 500px;
+}
+
+main section .title{
+    font-size: 19px;
+}
+
+main section .container{
+    padding-top: 70px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    gap: 2rem;
+}
+
+main section .container .mon-bar{
+    width: 14px;
+    height: 40px;
+    border-radius: 4px;
+    padding: 18px;
+    align-items: center;
+    justify-content: center;
+    background-color: hsl(10, 79%, 65%);
+}
+
+main section .container .tue-bar{
+    width: 14px;
+    height: 100px;
+    border-radius: 4px;
+    padding: 18px;
+    align-items: center;
+    justify-content: center;
+    background-color: hsl(10, 79%, 65%);
+}
+
+main section .container .wed-bar{
+    width: 14px;
+    height: 140px;
+    border-radius: 4px;
+    padding: 18px;
+    align-items: center;
+    justify-content: center;
+    background-color: hsl(186, 34%, 60%);
+}
+
+main section .container .thu-bar{
+    width: 14px;
+    height: 80px;
+    border-radius: 4px;
+    padding: 18px;
+    align-items: center;
+    justify-content: center;
+    background-color: hsl(10, 79%, 65%);
+}
+
+main section .container .fri-bar{
+    width: 14px;
+    height: 80px;
+    border-radius: 4px;
+    padding: 18px;
+    align-items: center;
+    justify-content: center;
+    background-color: hsl(10, 79%, 65%);
+}
+
+main section .container .sat-bar{
+    width: 14px;
+    height: 120px;
+    border-radius: 4px;
+    padding: 18px;
+    align-items: center;
+    justify-content: center;
+    background-color: hsl(10, 79%, 65%);
+}
+
+main section .container .sun-bar{
+    width: 14px;
+    height: 60px;
+    border-radius: 4px;
+    padding: 18px;
+    align-items: center;
+    justify-content: center;
+    background-color: hsl(10, 79%, 65%);
+}
+
+main footer{
+    padding-top: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+main footer .money p{
+    font-size: 15px;
+}
+
+main footer .money h1{
+    font-size: 39px;
+}
+
+main footer .statistic{
+    text-align: end;
+}
+
+main footer .statistic h2{
+    font-size: 14px;
+}
